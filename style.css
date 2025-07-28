@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+  font-family: 'Comic Sans MS', 'Arial', sans-serif;
+  background: url('children-material.jpg') no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+.hding{
+    margin-bottom: 25px;
+}
+.box{
+    padding: 15px;
+    min-width: 100px;
+    max-width: 500px;
+    height: auto;
+    box-shadow: 0 0 12px 7px mediumslateblue;
+    border-radius: 10px;
+
+}
+.ques{
+    padding: 5px;
+    margin-bottom: 20px;
+}
+.ans{
+    padding-bottom: 20px;
+}
+.box1{
+    display: flex;
+    box-shadow: 5px 5px 5px 2px cyan;
+    padding: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    background-color: rgb(55, 141, 227);
+    border-radius: 10px;
+    padding-left: 15px;
+}
+.box1:active, .box2:hover{
+    box-shadow: 0 0 5px 2px rgb(0, 64, 255);
+}
+.box2{
+    padding-left: 5px;
+    width: 100%;
+    height: 100%;
+}
+.nxt{
+    display: flex;
+    display: none;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px 2px rgb(63, 63, 63);
+    border-radius: 10px;
+    background: linear-gradient(to left, skyblue, blue);
+    margin-bottom: 15px;
+}
+.nxt:active{
+  transform: scale(0.95);
+}
+.win{
+  display: none;
+}
+.win h1{
+    font-family: cursive,Verdana, Geneva, Tahoma, sans-serif;
+    margin: 15px;
+}
+.quiz {
+  background: rgba(255,255,255,0.85);
+  padding: 30px;
+  margin: 40px auto;
+  max-width: 400px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px #aee;
+}
+h1 {
+  color: #ff9800;
+  text-shadow: 2px 2px 0 #fff176;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+button {
+  margin: 8px 4px;
+  padding: 12px 24px;
+  font-size: 18px;
+  border-radius: 12px;
+  border: none;
+  background: #81d4fa;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+  box-shadow: 2px 2px 6px #b3e5fc;
+}
+button:hover {
+  background: #ffb74d;
+  color: #fff;
+}
+button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+.message {
+  margin: 15px 0;
+  font-weight: bold;
+  color: #388e3c;
+  font-size: 20px;
+}
+.score {
+  margin-top: 20px;
+  color: #1976d2;
+  font-size: 18px;
+}
